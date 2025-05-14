@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "name": "adminService",
+    "path": "C:\\Users\\EmilioJaramillo\\OneDrive\\Desktop\\Proyecto,\\EduHub-20250505T232430Z-1-001\\EduHub\\src\\main\\java\\com\\EduHubAcademy\\adminService",
+    "generated_at": "2025-05-12T14:43:44.0132678",
+    "total_files": 4,
+    "total_size": 5509
+  },
+  "structure": {
+    "controller": {
+      "AdminController.java": {
+        "type": "file",
+        "info": {
+          "size": 1360,
+          "last_modified": "2025-05-12T14:43:43.9663609",
+          "mime_type": "text/x-java-source",
+          "extension": ".java"
+        }
+      }
+    },
+    "model": {
+      "Admin.java": {
+        "type": "file",
+        "info": {
+          "size": 458,
+          "last_modified": "2025-05-12T14:43:43.9976161",
+          "mime_type": "text/x-java-source",
+          "extension": ".java"
+        }
+      }
+    },
+    "repository": {
+      "AdminRepository.java": {
+        "type": "file",
+        "info": {
+          "size": 397,
+          "last_modified": "2025-05-12T14:43:43.9976161",
+          "mime_type": "text/x-java-source",
+          "extension": ".java"
+        }
+      }
+    },
+    "service": {
+      "ServiceAdmin.java": {
+        "type": "file",
+        "info": {
+          "size": 3294,
+          "last_modified": "2025-05-12T14:43:43.9976161",
+          "mime_type": "text/x-java-source",
+          "extension": ".java"
+        }
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "controller\\AdminController.java",
+      "content": "package com.EduHubAcademy.adminService.controller;\r\n\r\nimport com.EduHubAcademy.adminService.model.Admin;\r\nimport com.EduHubAcademy.adminService.service.ServiceAdmin;\r\nimport com.EduHubAcademy.soporteService.model.Soporte;\r\nimport com.EduHubAcademy.soporteService.service.SoporteService;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.web.bind.annotation.*;\r\n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/admins\")\r\npublic class AdminController {\r\n\r\n    @Autowired\r\n    private ServiceAdmin adminService;\r\n\r\n    @GetMapping(\"/traer\")\r\n    public List<Admin> getAllAdmins() {\r\n        return adminService.getAllAdmins();\r\n    }\r\n\r\n    @GetMapping(\"/{id}\")\r\n    public Admin getAdmin(@PathVariable Long id) {\r\n        return adminService.getAdminById(id);\r\n    }\r\n\r\n    @PostMapping(\"/crear\")\r\n    public Admin saveAdmin(@RequestBody Admin admin) {\r\n\r\n        return adminService.saveAdmin(admin);\r\n    }\r\n\r\n    @DeleteMapping(\"/borrar/{id}\")\r\n    public String deleteAdmin(@PathVariable Long id) {\r\n        adminService.deleteAdmin(id);\r\n        return \"La admin fue eliminada correctamente\";\r\n\r\n    }\r\n\r\n\r\n    @PutMapping (\"/editar\")\r\n    public Admin editAdmin(@RequestBody Admin admin) {\r\n        adminService.editAdmin(admin);\r\n\r\n        return adminService.findAdmin(admin.getId());\r\n    }\r\n\r\n}\r\n",
+      "info": {
+        "size": 1360,
+        "last_modified": "2025-05-12T14:43:43.9663609",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "model\\Admin.java",
+      "content": "package com.EduHubAcademy.adminService.model;\r\n\r\n\r\nimport jakarta.persistence.*;\r\nimport lombok.*;\r\n\r\n\r\n\r\n@Setter\r\n@Getter\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\n\r\n@Entity\r\n@Table(name = \"servicio_admin\")\r\n\r\npublic class Admin {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n\r\n    private Long id;\r\n    private  String nombre;\r\n    private String apellido;\r\n    private String correo;\r\n    private String contrasenia;\r\n\r\n\r\n\r\n\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 458,
+        "last_modified": "2025-05-12T14:43:43.9976161",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "repository\\AdminRepository.java",
+      "content": "package com.EduHubAcademy.adminService.repository;\r\n\r\nimport com.EduHubAcademy.adminService.model.Admin;\r\nimport com.EduHubAcademy.estudianteService.model.Estudiante;\r\nimport org.springframework.data.jpa.repository.JpaRepository;\r\n\r\npublic interface AdminRepository extends JpaRepository<Admin, Long>{\r\n    boolean existsByCorreo(String correo);\r\n\r\n    Estudiante findByCorreo(String correo);\r\n}\r\n",
+      "info": {
+        "size": 397,
+        "last_modified": "2025-05-12T14:43:43.9976161",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "service\\ServiceAdmin.java",
+      "content": "package com.EduHubAcademy.adminService.service;\r\n\r\nimport com.EduHubAcademy.adminService.model.Admin;\r\nimport com.EduHubAcademy.adminService.repository.AdminRepository;\r\nimport com.EduHubAcademy.estudianteService.model.Estudiante;\r\n\r\nimport org.jetbrains.annotations.NotNull;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.stereotype.Service;\r\n\r\nimport java.util.List;\r\n\r\n@Service\r\npublic class ServiceAdmin {\r\n\r\n    @Autowired\r\n    private AdminRepository adminRepository;\r\n\r\n    public List<Admin> getAllAdmins() {\r\n        return adminRepository.findAll();\r\n    }\r\n\r\n    public Admin getAdminById(Long id) {\r\n        return adminRepository.findById(id).orElse(null);\r\n    }\r\n\r\n    public Admin saveAdmin(Admin admin) {\r\n        //llamo a la funcion de validacion\r\n        validarAdmin(admin, false);\r\n        return adminRepository.save(admin);\r\n    }\r\n\r\n    public void deleteAdmin(Long id) {\r\n        if (!adminRepository.existsById(id)) {\r\n            throw new IllegalArgumentException(\"No se encontró un admin con el ID proporcionado.\");\r\n        }\r\n        adminRepository.deleteById(id);\r\n    }\r\n\r\n    public void editAdmin(@NotNull Admin admin) {\r\n        if (admin.getId() == null || !adminRepository.existsById(admin.getId())) {\r\n            throw new IllegalArgumentException(\"El admin que intenta editar no existe.\");\r\n        }\r\n        validarAdmin(admin, true);\r\n\r\n        this.saveAdmin(admin);\r\n    }\r\n\r\n    public Admin findAdmin(Long id) {\r\n        return adminRepository.findById(id).orElse(null);\r\n\r\n    }\r\n\r\n    private void validarAdmin(@NotNull Admin admin, boolean esEdicion) {\r\n\r\n        //valido que el campo nombre no esté vacío.\r\n        if (admin.getNombre() == null || admin.getNombre().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El nombre del admin es obligatorio\");\r\n        }\r\n\r\n        //valido que el campo apellido no este vacio\r\n        if(admin.getApellido() == null || admin.getApellido().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El apellido del admin es obligatorio\");\r\n        }\r\n        //valido que el campo contrasenia no este vacio\r\n        if(admin.getContrasenia() == null || admin.getContrasenia().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"La contraseña del admin es obligatorio\");\r\n        }\r\n\r\n        //valido que el correo ingresado este en formato de correos\r\n        if (admin.getCorreo() == null || !admin.getCorreo().matches(\"^[A-Za-z0-9+_.-]+@(.+)$\")) {\r\n            throw new IllegalArgumentException(\"El email ingresado no tiene un formato válido\");\r\n        }\r\n\r\n        // guardo en una variable auxiliar de tipo booleano el resultado de la validacion.\r\n        boolean correoRepetido = adminRepository.existsByCorreo(admin.getCorreo());\r\n\r\n// Si es edición, permitira el mismo correo  pero debe  pertenecer al mismo estudiante\r\n        if (correoRepetido) {\r\n            Estudiante existente = adminRepository.findByCorreo(admin.getCorreo());\r\n            if (!esEdicion || (existente != null && !existente.getId().equals(admin.getId()))) {\r\n                throw new IllegalArgumentException(\"Intenta con otro correo, ya existe un admin con ese email\");\r\n            }\r\n        }\r\n    }\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 3294,
+        "last_modified": "2025-05-12T14:43:43.9976161",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    }
+  ]
+}

@@ -1,0 +1,520 @@
+{
+  "project_info": {
+    "name": "src",
+    "path": "C:\\Users\\EmilioJaramillo\\OneDrive\\Desktop\\Proyecto,\\EduHub-20250505T232430Z-1-001\\EduHub\\src",
+    "generated_at": "2025-05-12T14:28:59.8471025",
+    "total_files": 23,
+    "total_size": 26134
+  },
+  "structure": {
+    "main": {
+      "java": {
+        "com": {
+          "EduHubAcademy": {
+            "adminService": {
+              "controller": {
+                "AdminController.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 1360,
+                    "last_modified": "2025-05-12T14:28:59.2616092",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "model": {
+                "Admin.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 458,
+                    "last_modified": "2025-05-12T14:28:59.2928554",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "repository": {
+                "AdminRepository.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 397,
+                    "last_modified": "2025-05-12T14:28:59.3084708",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "service": {
+                "ServiceAdmin.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 3294,
+                    "last_modified": "2025-05-12T14:28:59.3241298",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              }
+            },
+            "asignaturaService": {
+              "controller": {
+                "AsignaturaController.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 1427,
+                    "last_modified": "2025-05-12T14:28:59.3553362",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "model": {
+                "Asignatura.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 558,
+                    "last_modified": "2025-05-12T14:28:59.3709556",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "repository": {
+                "AsignaturaRepository.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 270,
+                    "last_modified": "2025-05-12T14:28:59.3865788",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "service": {
+                "AsignaturaService.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 2453,
+                    "last_modified": "2025-05-12T14:28:59.4021999",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              }
+            },
+            "docenteService": {
+              "controller": {
+                "DocenteController.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 1321,
+                    "last_modified": "2025-05-12T14:28:59.4334415",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "model": {
+                "Docente.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 549,
+                    "last_modified": "2025-05-12T14:28:59.4490637",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "repository": {
+                "DocenteRepository.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 343,
+                    "last_modified": "2025-05-12T14:28:59.4646854",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "service": {
+                "DocenteService.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 3223,
+                    "last_modified": "2025-05-12T14:28:59.4803062",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              }
+            },
+            "EduHubApplication.java": {
+              "type": "file",
+              "info": {
+                "size": 312,
+                "last_modified": "2025-05-12T14:28:59.511547",
+                "mime_type": "text/x-java-source",
+                "extension": ".java"
+              }
+            },
+            "estudianteService": {
+              "controller": {
+                "EstudianteController.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 1496,
+                    "last_modified": "2025-05-12T14:28:59.5271686",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "model": {
+                "Estudiante.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 459,
+                    "last_modified": "2025-05-12T14:28:59.5427899",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "repository": {
+                "EstudianteRepository.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 368,
+                    "last_modified": "2025-05-12T14:28:59.5584125",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "service": {
+                "EstudianteService.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 3338,
+                    "last_modified": "2025-05-12T14:28:59.5898962",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              }
+            },
+            "soporteService": {
+              "controller": {
+                "SoporteController.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 1321,
+                    "last_modified": "2025-05-12T14:28:59.6440244",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "model": {
+                "Soporte.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 449,
+                    "last_modified": "2025-05-12T14:28:59.6596472",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "repository": {
+                "SoporteRepository.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 258,
+                    "last_modified": "2025-05-12T14:28:59.690891",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              },
+              "service": {
+                "SoporteService.java": {
+                  "type": "file",
+                  "info": {
+                    "size": 1063,
+                    "last_modified": "2025-05-12T14:28:59.7065113",
+                    "mime_type": "text/x-java-source",
+                    "extension": ".java"
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "resources": {
+        "application.properties": {
+          "type": "file",
+          "info": {
+            "size": 1201,
+            "last_modified": "2025-05-12T14:28:59.7533786",
+            "mime_type": "text/x-java-properties",
+            "extension": ".properties"
+          }
+        }
+      }
+    },
+    "test": {
+      "java": {
+        "com": {
+          "EduHubAcademy": {
+            "EduHub": {
+              "EduHubApplicationTests.java": {
+                "type": "file",
+                "info": {
+                  "size": 216,
+                  "last_modified": "2025-05-12T14:28:59.7846191",
+                  "mime_type": "text/x-java-source",
+                  "extension": ".java"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "files": [
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\adminService\\controller\\AdminController.java",
+      "content": "package com.EduHubAcademy.adminService.controller;\r\n\r\nimport com.EduHubAcademy.adminService.model.Admin;\r\nimport com.EduHubAcademy.adminService.service.ServiceAdmin;\r\nimport com.EduHubAcademy.soporteService.model.Soporte;\r\nimport com.EduHubAcademy.soporteService.service.SoporteService;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.web.bind.annotation.*;\r\n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/admins\")\r\npublic class AdminController {\r\n\r\n    @Autowired\r\n    private ServiceAdmin adminService;\r\n\r\n    @GetMapping(\"/traer\")\r\n    public List<Admin> getAllAdmins() {\r\n        return adminService.getAllAdmins();\r\n    }\r\n\r\n    @GetMapping(\"/{id}\")\r\n    public Admin getAdmin(@PathVariable Long id) {\r\n        return adminService.getAdminById(id);\r\n    }\r\n\r\n    @PostMapping(\"/crear\")\r\n    public Admin saveAdmin(@RequestBody Admin admin) {\r\n\r\n        return adminService.saveAdmin(admin);\r\n    }\r\n\r\n    @DeleteMapping(\"/borrar/{id}\")\r\n    public String deleteAdmin(@PathVariable Long id) {\r\n        adminService.deleteAdmin(id);\r\n        return \"La admin fue eliminada correctamente\";\r\n\r\n    }\r\n\r\n\r\n    @PutMapping (\"/editar\")\r\n    public Admin editAdmin(@RequestBody Admin admin) {\r\n        adminService.editAdmin(admin);\r\n\r\n        return adminService.findAdmin(admin.getId());\r\n    }\r\n\r\n}\r\n",
+      "info": {
+        "size": 1360,
+        "last_modified": "2025-05-12T14:28:59.2616092",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\adminService\\model\\Admin.java",
+      "content": "package com.EduHubAcademy.adminService.model;\r\n\r\n\r\nimport jakarta.persistence.*;\r\nimport lombok.*;\r\n\r\n\r\n\r\n@Setter\r\n@Getter\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\n\r\n@Entity\r\n@Table(name = \"servicio_admin\")\r\n\r\npublic class Admin {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n\r\n    private Long id;\r\n    private  String nombre;\r\n    private String apellido;\r\n    private String correo;\r\n    private String contrasenia;\r\n\r\n\r\n\r\n\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 458,
+        "last_modified": "2025-05-12T14:28:59.2928554",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\adminService\\repository\\AdminRepository.java",
+      "content": "package com.EduHubAcademy.adminService.repository;\r\n\r\nimport com.EduHubAcademy.adminService.model.Admin;\r\nimport com.EduHubAcademy.estudianteService.model.Estudiante;\r\nimport org.springframework.data.jpa.repository.JpaRepository;\r\n\r\npublic interface AdminRepository extends JpaRepository<Admin, Long>{\r\n    boolean existsByCorreo(String correo);\r\n\r\n    Estudiante findByCorreo(String correo);\r\n}\r\n",
+      "info": {
+        "size": 397,
+        "last_modified": "2025-05-12T14:28:59.3084708",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\adminService\\service\\ServiceAdmin.java",
+      "content": "package com.EduHubAcademy.adminService.service;\r\n\r\nimport com.EduHubAcademy.adminService.model.Admin;\r\nimport com.EduHubAcademy.adminService.repository.AdminRepository;\r\nimport com.EduHubAcademy.estudianteService.model.Estudiante;\r\n\r\nimport org.jetbrains.annotations.NotNull;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.stereotype.Service;\r\n\r\nimport java.util.List;\r\n\r\n@Service\r\npublic class ServiceAdmin {\r\n\r\n    @Autowired\r\n    private AdminRepository adminRepository;\r\n\r\n    public List<Admin> getAllAdmins() {\r\n        return adminRepository.findAll();\r\n    }\r\n\r\n    public Admin getAdminById(Long id) {\r\n        return adminRepository.findById(id).orElse(null);\r\n    }\r\n\r\n    public Admin saveAdmin(Admin admin) {\r\n        //llamo a la funcion de validacion\r\n        validarAdmin(admin, false);\r\n        return adminRepository.save(admin);\r\n    }\r\n\r\n    public void deleteAdmin(Long id) {\r\n        if (!adminRepository.existsById(id)) {\r\n            throw new IllegalArgumentException(\"No se encontró un admin con el ID proporcionado.\");\r\n        }\r\n        adminRepository.deleteById(id);\r\n    }\r\n\r\n    public void editAdmin(@NotNull Admin admin) {\r\n        if (admin.getId() == null || !adminRepository.existsById(admin.getId())) {\r\n            throw new IllegalArgumentException(\"El admin que intenta editar no existe.\");\r\n        }\r\n        validarAdmin(admin, true);\r\n\r\n        this.saveAdmin(admin);\r\n    }\r\n\r\n    public Admin findAdmin(Long id) {\r\n        return adminRepository.findById(id).orElse(null);\r\n\r\n    }\r\n\r\n    private void validarAdmin(@NotNull Admin admin, boolean esEdicion) {\r\n\r\n        //valido que el campo nombre no esté vacío.\r\n        if (admin.getNombre() == null || admin.getNombre().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El nombre del admin es obligatorio\");\r\n        }\r\n\r\n        //valido que el campo apellido no este vacio\r\n        if(admin.getApellido() == null || admin.getApellido().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El apellido del admin es obligatorio\");\r\n        }\r\n        //valido que el campo contrasenia no este vacio\r\n        if(admin.getContrasenia() == null || admin.getContrasenia().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"La contraseña del admin es obligatorio\");\r\n        }\r\n\r\n        //valido que el correo ingresado este en formato de correos\r\n        if (admin.getCorreo() == null || !admin.getCorreo().matches(\"^[A-Za-z0-9+_.-]+@(.+)$\")) {\r\n            throw new IllegalArgumentException(\"El email ingresado no tiene un formato válido\");\r\n        }\r\n\r\n        // guardo en una variable auxiliar de tipo booleano el resultado de la validacion.\r\n        boolean correoRepetido = adminRepository.existsByCorreo(admin.getCorreo());\r\n\r\n// Si es edición, permitira el mismo correo  pero debe  pertenecer al mismo estudiante\r\n        if (correoRepetido) {\r\n            Estudiante existente = adminRepository.findByCorreo(admin.getCorreo());\r\n            if (!esEdicion || (existente != null && !existente.getId().equals(admin.getId()))) {\r\n                throw new IllegalArgumentException(\"Intenta con otro correo, ya existe un admin con ese email\");\r\n            }\r\n        }\r\n    }\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 3294,
+        "last_modified": "2025-05-12T14:28:59.3241298",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\asignaturaService\\controller\\AsignaturaController.java",
+      "content": "package com.EduHubAcademy.asignaturaService.controller;\r\n\r\nimport com.EduHubAcademy.asignaturaService.model.Asignatura;\r\nimport com.EduHubAcademy.asignaturaService.service.AsignaturaService;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.web.bind.annotation.*;\r\n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/cursos\")\r\npublic class AsignaturaController {\r\n\r\n     @Autowired\r\n    private AsignaturaService asignaturaService;\r\n\r\n    @GetMapping(\"/traer\")\r\n    public List<Asignatura> getAllAsignaturas() {\r\n        return asignaturaService.getAllAsignaturas();\r\n    }\r\n\r\n\r\n    @GetMapping(\"/{id}\")\r\n    public Asignatura getAsignatura(@PathVariable Long id) {\r\n        return asignaturaService.getAsignaturaById(id);\r\n    }\r\n\r\n    @PostMapping(\"/crear\")\r\n    public Asignatura saveAsignatura(@RequestBody Asignatura asignatura) {\r\n\r\n        return asignaturaService.saveAsignatura(asignatura);\r\n    }\r\n\r\n    @DeleteMapping(\"/borrar/{id}\")\r\n    public String deleteAsignatura(@PathVariable Long id) {\r\n        asignaturaService.deleteAsignatura(id);\r\n        return \"El Asignatura fue eliminado correctamente\";\r\n\r\n    }\r\n\r\n\r\n    @PutMapping (\"/editar\")\r\n    public Asignatura editAsignatura(@RequestBody Asignatura asignatura) {\r\n        asignaturaService.editAsignatura(asignatura);\r\n\r\n        return asignaturaService.findAsignatura(asignatura.getId());\r\n    }\r\n\r\n}\r\n",
+      "info": {
+        "size": 1427,
+        "last_modified": "2025-05-12T14:28:59.3553362",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\asignaturaService\\model\\Asignatura.java",
+      "content": "package com.EduHubAcademy.asignaturaService.model;\r\n\r\n\r\nimport jakarta.persistence.*;\r\nimport lombok.*;\r\n\r\n\r\n\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\n@Getter\r\n@Setter\r\n\r\n\r\n@Entity\r\n@Table(name = \"servicio_asignatura\")\r\npublic class Asignatura {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    private Long id;\r\n    private String nombre;\r\n    private String descripcion;\r\n    private String nota_1;\r\n    private String nota_2;\r\n    private String nota_3;\r\n    private String notaFinal;\r\n    private String url_contenido;\r\n\r\n\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 558,
+        "last_modified": "2025-05-12T14:28:59.3709556",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\asignaturaService\\repository\\AsignaturaRepository.java",
+      "content": "package com.EduHubAcademy.asignaturaService.repository;\r\n\r\nimport com.EduHubAcademy.asignaturaService.model.Asignatura;\r\nimport org.springframework.data.jpa.repository.JpaRepository;\r\n\r\npublic interface AsignaturaRepository extends JpaRepository<Asignatura, Long> {\r\n}\r\n",
+      "info": {
+        "size": 270,
+        "last_modified": "2025-05-12T14:28:59.3865788",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\asignaturaService\\service\\AsignaturaService.java",
+      "content": "package com.EduHubAcademy.asignaturaService.service;\r\n\r\nimport com.EduHubAcademy.asignaturaService.model.Asignatura;\r\nimport com.EduHubAcademy.asignaturaService.repository.AsignaturaRepository;\r\nimport org.jetbrains.annotations.NotNull;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.stereotype.Service;\r\n\r\nimport java.util.List;\r\n\r\n@Service\r\npublic class AsignaturaService {\r\n\r\n\r\n    @Autowired\r\n    private AsignaturaRepository asignaturaRepository;\r\n\r\n    public List<Asignatura> getAllAsignaturas() {\r\n        return asignaturaRepository.findAll();\r\n    }\r\n\r\n    public Asignatura getAsignaturaById(Long id) {\r\n        return asignaturaRepository.findById(id).orElse(null);\r\n    }\r\n\r\n    public Asignatura saveAsignatura(Asignatura asignatura) {\r\n        return asignaturaRepository.save(asignatura);\r\n    }\r\n\r\n    public void deleteAsignatura(Long id) {\r\n        asignaturaRepository.deleteById(id);\r\n    }\r\n\r\n    public void editAsignatura(Asignatura asignatura) {\r\n        this.saveAsignatura(asignatura);\r\n    }\r\n\r\n    public Asignatura findAsignatura(Long id) {\r\n        return asignaturaRepository.findById(id).orElse(null);\r\n\r\n    }\r\n\r\n    private void validarAsignatura(@NotNull Asignatura asignatura, boolean esEdicion) {\r\n\r\n        //valido que el campo nombre de la materia no esté vacío.\r\n        if (asignatura.getNombre() == null || asignatura.getNombre().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El nombre de la materia es obligatorio\");\r\n        }\r\n\r\n        //valido que el campo de descripcion no este vacio\r\n        if (asignatura.getDescripcion() == null || asignatura.getDescripcion().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\" La descripcion de la materia es obligatorio\");\r\n        }\r\n        //valido que el campo notas no esten vacíos.\r\n        if (asignatura.getNota_1() == null || asignatura.getNota_1().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El campo de la nota_1 es obligatorio\");\r\n        }\r\n        if (asignatura.getNota_2() == null || asignatura.getNota_2().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El campo de la nota_2 es obligatorio\");\r\n        }\r\n        if (asignatura.getNota_3() == null || asignatura.getNota_3().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El campo de la nota_1 es obligatorio\");\r\n        }\r\n    }\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 2453,
+        "last_modified": "2025-05-12T14:28:59.4021999",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\docenteService\\controller\\DocenteController.java",
+      "content": "package com.EduHubAcademy.docenteService.controller;\r\n\r\n\r\nimport com.EduHubAcademy.docenteService.model.Docente;\r\nimport com.EduHubAcademy.docenteService.service.DocenteService;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.web.bind.annotation.*;\r\n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/docentes\")\r\n\r\npublic class DocenteController {\r\n\r\n    @Autowired\r\n    private DocenteService docenteService;\r\n\r\n    @GetMapping(\"/traer\")\r\n    public List<Docente> getAllDocentes() {\r\n        return docenteService.getAllDocentes();\r\n    }\r\n\r\n\r\n    @GetMapping(\"/{id}\")\r\n    public Docente getDocente(@PathVariable Long id) {\r\n        return docenteService.getDocenteById(id);\r\n    }\r\n\r\n    @PostMapping(\"/crear\")\r\n    public Docente saveDocente(@RequestBody Docente docente) {\r\n\r\n        return docenteService.saveDocente(docente);\r\n    }\r\n\r\n    @DeleteMapping(\"/borrar/{id}\")\r\n    public String deleteDocente(@PathVariable Long id) {\r\n        docenteService.deleteDocente(id);\r\n        return \"El Docente fue eliminado correctamente\";\r\n\r\n    }\r\n\r\n\r\n    @PutMapping (\"/editar\")\r\n    public Docente editDocente(@RequestBody Docente docente) {\r\n        docenteService.editDocente(docente);\r\n\r\n        return docenteService.findDocente(docente.getId());\r\n    }\r\n\r\n}\r\n",
+      "info": {
+        "size": 1321,
+        "last_modified": "2025-05-12T14:28:59.4334415",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\docenteService\\model\\Docente.java",
+      "content": "package com.EduHubAcademy.docenteService.model;\r\n\r\n\r\nimport jakarta.persistence.*;\r\nimport lombok.AllArgsConstructor;\r\nimport lombok.Getter;\r\nimport lombok.NoArgsConstructor;\r\nimport lombok.Setter;\r\n\r\n\r\n\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\n@Getter\r\n@Setter\r\n@Entity\r\n@Table(name = \"service_docente\")\r\npublic class Docente {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    private Long  id;\r\n\r\n    private String nombre;\r\n    private String apellido;\r\n    private String correo;\r\n    private String especialidad;\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 549,
+        "last_modified": "2025-05-12T14:28:59.4490637",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\docenteService\\repository\\DocenteRepository.java",
+      "content": "package com.EduHubAcademy.docenteService.repository;\r\n\r\nimport com.EduHubAcademy.docenteService.model.Docente;\r\nimport org.springframework.data.jpa.repository.JpaRepository;\r\n\r\npublic interface DocenteRepository extends JpaRepository<Docente, Long> {\r\n    boolean existsByCorreo(String correo);\r\n\r\n    Docente findByCorreo(String correo);\r\n}\r\n",
+      "info": {
+        "size": 343,
+        "last_modified": "2025-05-12T14:28:59.4646854",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\docenteService\\service\\DocenteService.java",
+      "content": "package com.EduHubAcademy.docenteService.service;\r\n\r\n\r\n\r\nimport com.EduHubAcademy.docenteService.model.Docente;\r\nimport com.EduHubAcademy.docenteService.repository.DocenteRepository;\r\nimport com.EduHubAcademy.estudianteService.model.Estudiante;\r\nimport org.jetbrains.annotations.NotNull;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.stereotype.Service;\r\n\r\nimport java.util.List;\r\n\r\n@Service\r\npublic class DocenteService {\r\n\r\n    @Autowired\r\n    private DocenteRepository docenteRepository;\r\n\r\n    public List<Docente> getAllDocentes() {\r\n        return docenteRepository.findAll();\r\n    }\r\n\r\n    public Docente getDocenteById(Long id) {\r\n        return docenteRepository.findById(id).orElse(null);\r\n    }\r\n\r\n    public Docente saveDocente(Docente docente) {\r\n\r\n        //llamo a la funcion de validacion\r\n        validarDocente(docente, false);\r\n\r\n        //en caso que todo salga bien se guardara el nuevo\r\n        return docenteRepository.save(docente);\r\n    }\r\n\r\n    public void deleteDocente(Long id) {\r\n        if (!docenteRepository.existsById(id)) {\r\n            throw new IllegalArgumentException(\"No se encontró un docente con el ID proporcionado.\");\r\n        }\r\n         docenteRepository.deleteById(id);\r\n    }\r\n\r\n    public void editDocente(@NotNull Docente docente) {\r\n        if (docente.getId() == null || !docenteRepository.existsById(docente.getId())) {\r\n            throw new IllegalArgumentException(\"El docente que intenta editar no existe.\");\r\n        }\r\n        validarDocente(docente, true);\r\n\r\n        this.saveDocente(docente);\r\n    }\r\n\r\n    public Docente findDocente(Long id) {\r\n        return docenteRepository.findById(id).orElse(null);\r\n\r\n    }\r\n\r\n\r\n    private void validarDocente(@NotNull Docente docente, boolean esEdicion) {\r\n\r\n        //valido que el campo nombre no esté vacío.\r\n        if (docente.getNombre() == null || docente.getNombre().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El nombre del docente es obligatorio\");\r\n        }\r\n\r\n        //valido que el campo apellido no este vacio\r\n        if(docente.getApellido() == null || docente.getApellido().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El apellido del estudiante es obligatorio\");\r\n        }\r\n\r\n        //valido que el correo ingresado este en formato de correos\r\n        if (docente.getCorreo() == null || !docente.getCorreo().matches(\"^[A-Za-z0-9+_.-]+@(.+)$\")) {\r\n            throw new IllegalArgumentException(\"El email ingresado no tiene un formato válido\");\r\n        }\r\n\r\n        // guardo en una variable auxiliar de tipo booleano el resultado de la validacion.\r\n        boolean correoRepetido = docenteRepository.existsByCorreo(docente.getCorreo());\r\n\r\n// Si es edición, permitira el mismo correo  pero debe  pertenecer al mismo docente\r\n        if (correoRepetido) {\r\n            Docente existente = docenteRepository.findByCorreo(docente.getCorreo());\r\n            if (!esEdicion || (existente != null && !existente.getId().equals(docente.getId()))) {\r\n                throw new IllegalArgumentException(\"Intenta con otro correo, ya existe un docente con ese email\");\r\n            }\r\n        }\r\n    }\r\n\r\n}\r\n",
+      "info": {
+        "size": 3223,
+        "last_modified": "2025-05-12T14:28:59.4803062",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\EduHubApplication.java",
+      "content": "package com.EduHubAcademy;\n\nimport org.springframework.boot.SpringApplication;\nimport org.springframework.boot.autoconfigure.SpringBootApplication;\n\n@SpringBootApplication\npublic class EduHubApplication {\n\n\tpublic static void main(String[] args) {\n\t\tSpringApplication.run(EduHubApplication.class, args);\n\t}\n\n}\n\n\n",
+      "info": {
+        "size": 312,
+        "last_modified": "2025-05-12T14:28:59.511547",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\estudianteService\\controller\\EstudianteController.java",
+      "content": "package com.EduHubAcademy.estudianteService.controller;\r\n\r\nimport com.EduHubAcademy.estudianteService.model.Estudiante;\r\nimport com.EduHubAcademy.estudianteService.service.EstudianteService;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.web.bind.annotation.*;\r\n\r\nimport java.util.List;\r\n\r\n@RestController\r\n@RequestMapping(\"/estudiantes\")\r\n\r\npublic class EstudianteController {\r\n\r\n\r\n      @Autowired\r\n    private EstudianteService estudianteService;\r\n\r\n     @GetMapping(\"/traer\")\r\n    public List<Estudiante> getAllEstudiantes() {\r\n        return estudianteService.getAllEstudiantes();\r\n    }\r\n\r\n\r\n    @GetMapping(\"/{id}\")\r\n    public Estudiante getEstudiante(@PathVariable Long id) {\r\n        return estudianteService.getEstudianteById(id);\r\n    }\r\n\r\n    @PostMapping(\"/crear\")\r\n    public Estudiante saveEstudiante(@RequestBody Estudiante estudiante) {\r\n        System.out.println(\"usuario creado exitosamente\");\r\n        return estudianteService.saveEstudiante(estudiante);\r\n    }\r\n\r\n    @DeleteMapping(\"/borrar/{id}\")\r\n    public String deleteEstudiante(@PathVariable Long id) {\r\n        estudianteService.deleteEstudiante(id);\r\n        return \"El estudiante fue eliminado correctamente\";\r\n\r\n    }\r\n\r\n\r\n    @PutMapping (\"/editar\")\r\n    public Estudiante editEstudiante(@RequestBody Estudiante estudiante) {\r\n        estudianteService.editEstudiante(estudiante);\r\n\r\n        return estudianteService.findEstudiante(estudiante.getId());\r\n    }\r\n\r\n}\r\n",
+      "info": {
+        "size": 1496,
+        "last_modified": "2025-05-12T14:28:59.5271686",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\estudianteService\\model\\Estudiante.java",
+      "content": "package com.EduHubAcademy.estudianteService.model;\r\n\r\n\r\nimport jakarta.persistence.*;\r\nimport lombok.*;\r\n\r\n\r\n@Setter\r\n@Getter\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\n\r\n@Entity\r\n@Table(name = \"service_estudiante\")\r\n\r\npublic class Estudiante {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    private Long id;\r\n    private String nombre;\r\n    private String apellido;\r\n    private String correo;\r\n    private String carrera;\r\n\r\n\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 459,
+        "last_modified": "2025-05-12T14:28:59.5427899",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\estudianteService\\repository\\EstudianteRepository.java",
+      "content": "package com.EduHubAcademy.estudianteService.repository;\r\n\r\nimport com.EduHubAcademy.estudianteService.model.Estudiante;\r\nimport org.springframework.data.jpa.repository.JpaRepository;\r\n\r\npublic interface EstudianteRepository extends JpaRepository<Estudiante, Long> {\r\n\r\n    boolean existsByCorreo (String correo);\r\n\r\n    Estudiante findByCorreo(String correo);\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 368,
+        "last_modified": "2025-05-12T14:28:59.5584125",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\estudianteService\\service\\EstudianteService.java",
+      "content": "package com.EduHubAcademy.estudianteService.service;\r\n\r\nimport com.EduHubAcademy.estudianteService.model.Estudiante;\r\nimport com.EduHubAcademy.estudianteService.repository.EstudianteRepository;\r\nimport org.jetbrains.annotations.NotNull;\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.stereotype.Service;\r\n\r\nimport java.util.List;\r\n\r\n@Service\r\npublic class EstudianteService {\r\n\r\n\r\n    @Autowired\r\n    private EstudianteRepository estudianteRepository;\r\n\r\n    public List<Estudiante> getAllEstudiantes() {\r\n        return estudianteRepository.findAll();\r\n    }\r\n\r\n    public Estudiante getEstudianteById(Long id) {\r\n        return estudianteRepository.findById(id).orElse(null);\r\n    }\r\n\r\n\r\n    public Estudiante saveEstudiante (Estudiante estudiante) {\r\n\r\n        //llamo a la funcion de validacion\r\n        validarEstudiante(estudiante, false);\r\n\r\n        //en caso que todo salga bien se guardara el nuevo\r\n        return estudianteRepository.save(estudiante);\r\n    }\r\n\r\n    public void deleteEstudiante(Long id) {\r\n        if (!estudianteRepository.existsById(id)) {\r\n            throw new IllegalArgumentException(\"No se encontró un estudiante con el ID proporcionado.\");\r\n        }\r\n         estudianteRepository.deleteById(id);\r\n    }\r\n\r\n    public void editEstudiante(@NotNull Estudiante estudiante) {\r\n        if (estudiante.getId() == null || !estudianteRepository.existsById(estudiante.getId())) {\r\n            throw new IllegalArgumentException(\"El estudiante que intenta editar no existe.\");\r\n        }\r\n        validarEstudiante(estudiante, true);\r\n\r\n\r\n        this.saveEstudiante(estudiante);\r\n    }\r\n\r\n    public Estudiante findEstudiante(Long id) {\r\n        return estudianteRepository.findById(id).orElse(null);\r\n\r\n    }\r\n\r\n    private void validarEstudiante(@NotNull Estudiante estudiante, boolean esEdicion) {\r\n\r\n        //valido que el campo nombre no esté vacío.\r\n        if (estudiante.getNombre() == null || estudiante.getNombre().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El nombre del estudiante es obligatorio\");\r\n        }\r\n\r\n        //valido que el campo apellido no este vacio\r\n        if(estudiante.getApellido() == null || estudiante.getApellido().trim().isEmpty()) {\r\n            throw new IllegalArgumentException(\"El apellido del estudiante es obligatorio\");\r\n        }\r\n\r\n        //valido que el correo ingresado este en formato de correos\r\n        if (estudiante.getCorreo() == null || !estudiante.getCorreo().matches(\"^[A-Za-z0-9+_.-]+@(.+)$\")) {\r\n            throw new IllegalArgumentException(\"El email ingresado no tiene un formato válido\");\r\n        }\r\n\r\n        // guardo en una variable auxiliar de tipo booleano el resultado de la validacion.\r\n        boolean correoRepetido = estudianteRepository.existsByCorreo(estudiante.getCorreo());\r\n\r\n// Si es edición, permitira el mismo correo  pero debe  pertenecer al mismo estudiante\r\n        if (correoRepetido) {\r\n            Estudiante existente = estudianteRepository.findByCorreo(estudiante.getCorreo());\r\n            if (!esEdicion || (existente != null && !existente.getId().equals(estudiante.getId()))) {\r\n                throw new IllegalArgumentException(\"Intenta con otro correo, ya existe un estudiante con ese email\");\r\n            }\r\n        }\r\n    }\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 3338,
+        "last_modified": "2025-05-12T14:28:59.5898962",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\soporteService\\controller\\SoporteController.java",
+      "content": "package com.EduHubAcademy.soporteService.controller;\r\n\r\nimport java.util.List;\r\n\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\nimport org.springframework.web.bind.annotation.*;\r\n\r\nimport com.EduHubAcademy.soporteService.model.Soporte;\r\nimport com.EduHubAcademy.soporteService.service.SoporteService;\r\n\r\n@RestController\r\n@RequestMapping(\"/soportes\")\r\npublic class SoporteController {\r\n\r\n    @Autowired\r\n    private SoporteService soporteService;\r\n\r\n    @GetMapping (\"/traer\")\r\n    public List<Soporte> getAllSoportes() {\r\n        return soporteService.getAllSoportes();\r\n    }\r\n\r\n    @GetMapping(\"/{id}\")\r\n    public Soporte getSoporte(@PathVariable Long id) {\r\n        return soporteService.getSoporteById(id);\r\n    }\r\n\r\n    @PostMapping(\"/crear\")\r\n    public Soporte saveSoporte(@RequestBody Soporte soporte) {\r\n\r\n        return soporteService.saveSoporte(soporte);\r\n    }\r\n\r\n    @DeleteMapping(\"/borrar/{id}\")\r\n    public String deleteSoporte(@PathVariable Long id) {\r\n        soporteService.deleteSoporte(id);\r\n        return \"El ticket fue eliminado correctamente\";\r\n\r\n    }\r\n\r\n\r\n    @PutMapping (\"/editar\")\r\n    public Soporte editSoporte(@RequestBody Soporte soporte) {\r\n        soporteService.editSoporte(soporte);\r\n\r\n        return soporteService.findSoporte(soporte.getId());\r\n    }\r\n\r\n\r\n\r\n}\r\n",
+      "info": {
+        "size": 1321,
+        "last_modified": "2025-05-12T14:28:59.6440244",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\soporteService\\model\\Soporte.java",
+      "content": "package com.EduHubAcademy.soporteService.model;\r\n\r\n\r\nimport jakarta.persistence.*;\r\nimport lombok.*;\r\n\r\nimport java.time.LocalDate;\r\n\r\n@Setter\r\n@Getter\r\n@AllArgsConstructor\r\n@NoArgsConstructor\r\n\r\n@Entity\r\n@Table(name = \"service_soporte\")\r\n\r\npublic class Soporte {\r\n    @Id\r\n    @GeneratedValue(strategy = GenerationType.IDENTITY)\r\n    private Long id;\r\n    private String descripcion;\r\n    private String estado;\r\n    private LocalDate fecha;\r\n\r\n}\r\n",
+      "info": {
+        "size": 449,
+        "last_modified": "2025-05-12T14:28:59.6596472",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\soporteService\\repository\\SoporteRepository.java",
+      "content": "package com.EduHubAcademy.soporteService.repository;\r\n\r\nimport org.springframework.data.jpa.repository.JpaRepository;\r\n\r\nimport com.EduHubAcademy.soporteService.model.Soporte;\r\n\r\npublic interface SoporteRepository extends JpaRepository<Soporte, Long>{\r\n\r\n}\r\n",
+      "info": {
+        "size": 258,
+        "last_modified": "2025-05-12T14:28:59.690891",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\java\\com\\EduHubAcademy\\soporteService\\service\\SoporteService.java",
+      "content": "package com.EduHubAcademy.soporteService.service;\r\n\r\nimport java.util.List;\r\n\r\nimport org.springframework.beans.factory.annotation.Autowired;\r\n\r\nimport com.EduHubAcademy.soporteService.model.Soporte;\r\nimport com.EduHubAcademy.soporteService.repository.SoporteRepository;\r\nimport org.springframework.stereotype.Service;\r\n\r\n@Service\r\npublic class SoporteService {\r\n\r\n    @Autowired\r\n    private SoporteRepository soporteRepository;\r\n\r\n    public List<Soporte> getAllSoportes() {\r\n        return soporteRepository.findAll();\r\n    }\r\n\r\n    public Soporte getSoporteById(Long id) {\r\n        return soporteRepository.findById(id).orElse(null);\r\n    }\r\n\r\n    public Soporte saveSoporte(Soporte soporte) {\r\n        return soporteRepository.save(soporte);\r\n    }\r\n\r\n    public void deleteSoporte(Long id) {\r\n         soporteRepository.deleteById(id);\r\n    }\r\n\r\n    public void editSoporte(Soporte soporte) {\r\n        this.saveSoporte(soporte);\r\n    }\r\n\r\n    public Soporte findSoporte(Long id) {\r\n        return soporteRepository.findById(id).orElse(null);\r\n\r\n    }\r\n\r\n}\r\n",
+      "info": {
+        "size": 1063,
+        "last_modified": "2025-05-12T14:28:59.7065113",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    },
+    {
+      "path": "main\\resources\\application.properties",
+      "content": "#Nombre de mi aplicacion\nspring.application.name=EduHub\n\n#Url para la conexion a mi base de datos\nspring.datasource.url=jdbc:mysql://localhost:3306/eduhub_db?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true\n\n#nombre de usuario de la base de datos\nspring.datasource.username=root\n\n#contraseña de la base de datos\nspring.datasource.password=emi150102\n\n# el driver de la base de datos\n#spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver\n#spring.jpa.database-platform= org.hibernate.dialect.MySQL8Dialect\n\n# JPA - Hibernate\n#indicando a SpringBoot cómo manejar la creación del esquema de la base de datos.\n#create:\n#Cada vez que inicia la aplicación,\n# borra todas las tablas existentes y crea nuevas desde cero, basándose en mis entidades (@Entity).\n\nspring.jpa.hibernate.ddl-auto=create \n\n#Muestra por consola las consultas SQL que ejecuta Hibernate (como SELECT, INSERT, etc.).\nspring.jpa.show-sql=true\n\n#Define el \"dialecto\" de SQL que usará Hibernate, es decir, las reglas y sintaxis específicas para mi base de datos.\nspring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect\n\n\n#asignacion de puerto para el levantamiento\n# Puerto del servidor\nserver.port=8080",
+      "info": {
+        "size": 1201,
+        "last_modified": "2025-05-12T14:28:59.7533786",
+        "mime_type": "text/x-java-properties",
+        "extension": ".properties"
+      }
+    },
+    {
+      "path": "test\\java\\com\\EduHubAcademy\\EduHub\\EduHubApplicationTests.java",
+      "content": "package com.EduHubAcademy.EduHub;\n\nimport org.junit.jupiter.api.Test;\nimport org.springframework.boot.test.context.SpringBootTest;\n\n@SpringBootTest\nclass EduHubApplicationTests {\n\n\t@Test\n\tvoid contextLoads() {\n\t}\n\n}\n",
+      "info": {
+        "size": 216,
+        "last_modified": "2025-05-12T14:28:59.7846191",
+        "mime_type": "text/x-java-source",
+        "extension": ".java"
+      }
+    }
+  ]
+}
