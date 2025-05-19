@@ -12,7 +12,7 @@ import lombok.*;
 @NoArgsConstructor
 
 @Entity
-@Table(name = "servicio_admin")
+@Table(name = "service_admin")
 
 public class Admin {
     @Id

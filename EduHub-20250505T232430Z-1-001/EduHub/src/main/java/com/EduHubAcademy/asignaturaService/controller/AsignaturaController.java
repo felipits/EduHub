@@ -40,10 +40,11 @@ public class AsignaturaController {
 
 
     @PutMapping ("/editar")
-    public Asignatura editAsignatura(@RequestBody Asignatura asignatura) {
-        asignaturaService.editAsignatura(asignatura);
-
-        return asignaturaService.findAsignatura(asignatura.getId());
+    public Asignatura editAsignatura(@PathVariable Long id,
+                                     @RequestBody Asignatura asignatura) {
+        asignaturaService.editAsignatura(id, asignatura);
+       Asignatura asignaturaEditado = asignaturaService.findAsignatura(id);
+        return asignaturaEditado;
     }
 
 }

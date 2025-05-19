@@ -13,17 +13,13 @@ import lombok.*;
 
 
 @Entity
-@Table(name = "servicio_asignatura")
+@Table(name = "service_asignatura")
 public class Asignatura {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String nombre;
     private String descripcion;
-    private String nota_1;
-    private String nota_2;
-    private String nota_3;
-    private String notaFinal;
     private String url_contenido;
 
 

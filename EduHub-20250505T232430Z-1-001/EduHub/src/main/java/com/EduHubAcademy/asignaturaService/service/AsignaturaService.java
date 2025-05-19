@@ -9,32 +9,33 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class AsignaturaService {
+public class AsignaturaService implements IAsignaturaService {
 
 
     @Autowired
     private AsignaturaRepository asignaturaRepository;
-
+    @Override
     public List<Asignatura> getAllAsignaturas() {
         return asignaturaRepository.findAll();
     }
-
+    @Override
     public Asignatura getAsignaturaById(Long id) {
         return asignaturaRepository.findById(id).orElse(null);
     }
-
+    @Override
     public Asignatura saveAsignatura(Asignatura asignatura) {
         return asignaturaRepository.save(asignatura);
     }
-
+    @Override
     public void deleteAsignatura(Long id) {
         asignaturaRepository.deleteById(id);
     }
 
-    public void editAsignatura(Asignatura asignatura) {
+    @Override
+    public void editAsignatura(Long  id, Asignatura asignatura) {
         this.saveAsignatura(asignatura);
     }
-
+    @Override
     public Asignatura findAsignatura(Long id) {
         return asignaturaRepository.findById(id).orElse(null);
 
@@ -51,16 +52,7 @@ public class AsignaturaService {
         if (asignatura.getDescripcion() == null || asignatura.getDescripcion().trim().isEmpty()) {
             throw new IllegalArgumentException(" La descripcion de la materia es obligatorio");
         }
-        //valido que el campo notas no esten vacíos.
-        if (asignatura.getNota_1() == null || asignatura.getNota_1().trim().isEmpty()) {
-            throw new IllegalArgumentException("El campo de la nota_1 es obligatorio");
-        }
-        if (asignatura.getNota_2() == null || asignatura.getNota_2().trim().isEmpty()) {
-            throw new IllegalArgumentException("El campo de la nota_2 es obligatorio");
-        }
-        if (asignatura.getNota_3() == null || asignatura.getNota_3().trim().isEmpty()) {
-            throw new IllegalArgumentException("El campo de la nota_1 es obligatorio");
-        }
+
     }
 
 

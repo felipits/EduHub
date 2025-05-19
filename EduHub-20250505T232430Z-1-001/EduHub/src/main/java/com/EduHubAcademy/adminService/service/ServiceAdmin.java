@@ -11,25 +11,26 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
-public class ServiceAdmin {
+public class ServiceAdmin implements IAdminService {
 
     @Autowired
     private AdminRepository adminRepository;
 
+    @Override
     public List<Admin> getAllAdmins() {
         return adminRepository.findAll();
     }
-
+    @Override
     public Admin getAdminById(Long id) {
         return adminRepository.findById(id).orElse(null);
     }
-
+    @Override
     public Admin saveAdmin(Admin admin) {
         //llamo a la funcion de validacion
         validarAdmin(admin, false);
         return adminRepository.save(admin);
     }
-
+    @Override
     public void deleteAdmin(Long id) {
         if (!adminRepository.existsById(id)) {
             throw new IllegalArgumentException("No se encontró un admin con el ID proporcionado.");
@@ -37,7 +38,8 @@ public class ServiceAdmin {
         adminRepository.deleteById(id);
     }
 
-    public void editAdmin(@NotNull Admin admin) {
+    @Override
+    public void editAdmin(@NotNull Long id, Admin admin) {
         if (admin.getId() == null || !adminRepository.existsById(admin.getId())) {
             throw new IllegalArgumentException("El admin que intenta editar no existe.");
         }
@@ -45,7 +47,7 @@ public class ServiceAdmin {
 
         this.saveAdmin(admin);
     }
-
+    @Override
     public Admin findAdmin(Long id) {
         return adminRepository.findById(id).orElse(null);
 

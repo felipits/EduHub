@@ -2,6 +2,7 @@ package com.EduHubAcademy.adminService.controller;
 
 import com.EduHubAcademy.adminService.model.Admin;
 import com.EduHubAcademy.adminService.service.ServiceAdmin;
+import com.EduHubAcademy.asignaturaService.model.Asignatura;
 import com.EduHubAcademy.soporteService.model.Soporte;
 import com.EduHubAcademy.soporteService.service.SoporteService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -39,12 +40,12 @@ public class AdminController {
 
     }
 
-
     @PutMapping ("/editar")
-    public Admin editAdmin(@RequestBody Admin admin) {
-        adminService.editAdmin(admin);
-
-        return adminService.findAdmin(admin.getId());
+    public Admin editAdmin(@PathVariable Long id,
+                                     @RequestBody Admin admin) {
+        adminService.editAdmin(id, admin);
+        Admin adminEditado = adminService.findAdmin(id);
+        return adminEditado;
     }
 
 }
